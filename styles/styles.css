@@ -74,6 +74,7 @@ header .menu .contenedor p{
 .sub-menu{
   position: absolute;
   display: none;
+  line-height: 25px;
 }
 
 .sub-menu li a{
