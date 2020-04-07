@@ -70,3 +70,7 @@ header .menu .contenedor p{
   font-size: 18px;
   font-weight: 150;
 }
+
+.sub-menu{
+  position: absolute;
+}
