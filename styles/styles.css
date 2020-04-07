@@ -73,4 +73,13 @@ header .menu .contenedor p{
 
 .sub-menu{
   position: absolute;
+  display: none;
+}
+
+.sub-menu li a{
+  display: block;
+}
+
+.menu .contenedor li:hover .sub-menu{
+  display: block;
 }
