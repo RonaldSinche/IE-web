@@ -1,0 +1,72 @@
+body{
+  margin:0;
+  font-family: 'Bellota', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  background:url(../images/escuela.png);
+  height: 100vh;
+  background-size: cover;
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul{
+  display: flex;
+}
+
+header ul li{
+  margin-right: 50px;
+  list-style: none;
+}
+
+.contenedor{
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+#titulo-principal{
+  display: flex;
+  justify-content:center;
+  margin-top: 25vh;
+  margin-right:0;
+  margin-bottom: 25vh;
+  margin-left: 0vh;
+}
+
+h1{
+  color: #ffffff;
+  font-size: 50px;
+  font-family: 'Bellota', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 525;
+  margin:0;
+}
+
+h3{
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-align: left;
+}
+
+header .menu .contenedor nav ul li a{
+  color: #ffffff;
+  font-size: 18px;
+}
+
+header .menu .contenedor p{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 150;
+}
